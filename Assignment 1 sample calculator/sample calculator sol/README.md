@@ -1,5 +1,4 @@
 # Command Line Argument Based Calculator in Node.js
-currently 10 test cases are passing
 
 ### Maximum Marks - 12
 ```
