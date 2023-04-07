@@ -1,0 +1,16 @@
+{
+  "name": "first_project",
+  "version": "1.0.0",
+  "description": "this is my 1st node project",
+  "main": "day3.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kunal",
+  "license": "ISC",
+  "dependencies": {
+    "is-even": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
