@@ -73,7 +73,7 @@
 //The fs.readFile() method is an inbuilt method 
 //which is used to read the file. This method 
 //read the entire file into buffer. 
-const http = require("http");
+const http = require("http")
 const fs=require("fs") //importing fs
 
 const server = http.createServer((req,res) => {
@@ -146,3 +146,6 @@ server.listen(4500, () => {
 //    This means that we do not have to stop
 //     and restart our applications in order for
 //      our changes to take effect.
+
+
+//autocannon one of the fastest tools available for testing web-server performance
