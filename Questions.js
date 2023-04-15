@@ -294,10 +294,6 @@
 //read the entire file into buffer. 
 
 
-/which is used to read the file. This method 
-//read the entire file into buffer. 
-
-
 
 
 //http://localhost:4500/data 
