@@ -1,0 +1,12 @@
+Method: GET, Route: /students, user-agent: undefined
+Method: GET, Route: /, user-agent: undefined
+Method: GET, Route: /students/1, user-agent: undefined
+Method: GET, Route: /1, user-agent: undefined
+Method: GET, Route: /, user-agent: undefined
+Method: GET, Route: /instructors, user-agent: undefined
+Method: GET, Route: /instructors/1, user-agent: undefined
+Method: GET, Route: /1, user-agent: undefined
+Method: PATCH, Route: /1?role=admin&pass=7877, user-agent: undefined
+Method: PATCH, Route: /students/1?role=admin&pass=7877, user-agent: undefined
+Method: PATCH, Route: /students/1, user-agent: undefined
+Method: PATCH, Route: /1, user-agent: undefined
