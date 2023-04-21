@@ -1,0 +1,23 @@
+{
+  "name": "nem111-all-projects-and-assignments",
+  "version": "1.0.0",
+  "description": "event loop visualisation\r ![event loop](https://user-images.githubusercontent.com/104050919/230652135-b618472d-365e-40e4-b58b-22eb46bdf063.gif)\r JavaScript Visualized: Promises & Async/Await\r ![js visualised Async Await](https://user-images.githubusercontent.com/104050919/230726487-9966ddc0-db96-432d-b97e-b1659712e596.gif)",
+  "main": "Questions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kunalyadava/NEM111-all-Projects-and-Assignments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kunalyadava/NEM111-all-Projects-and-Assignments/issues"
+  },
+  "homepage": "https://github.com/Kunalyadava/NEM111-all-Projects-and-Assignments#readme",
+  "dependencies": {
+    "mongoose": "^7.0.4"
+  }
+}
