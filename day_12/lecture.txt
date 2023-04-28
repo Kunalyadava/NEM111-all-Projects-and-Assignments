@@ -1,0 +1,196 @@
+Reationships:the link or bond between two or more things
+Things can be  People ,objects,network, computers etc
+A hierarchy is a system of organizing people into different 
+ranks or levels of importance, for example in society or in a company.
+              =>Mongo
+                =>Database 
+                   =>collections ==>Relationship between multiple elements
+                      =>Documents
+                        
+Types of Relationships
+=>1-1 Relationships =>1-1
+=>1-Many Relationships=>Many-1
+=>Many -Many Relationships=>Many-Many
+
+why do we need Relationships?
+   =>Masai's Database
+     ==>students
+     ==>instructors
+
+     **student's documents*
+
+     student_code
+     batch
+    
+     
+     **Employee's documents*
+  
+     emp_code
+     subject
+     exp
+
+     =>db.students.find({location:Bangalore})
+     =>db.instructors.find({location:"Bangalore})
+     =>db.hr.find({location:"Bangalore})
+     =>db..find({location:"Bangalore})
+     user collections
+     name
+     dob
+     email
+     gender
+     blood group
+     location
+     phone No.
+
+1-1 Relationships
+
+**students documents
+_id:"............."==>200
+student_code
+batch
+user_id:50
+
+  user collections
+  _id:"............."==>50
+     name
+     dob
+     email
+     gender
+     blood group
+     location
+     phone No
+
+
+ way of connection => we will connect them by the helo of ID's 
+ =>1st way :Put user_id in students's Schema
+ =>2nd Way :Put student_id in users Schema
+1-Many Relationship
+
+Linkedin's example
+=>users
+=>Posts
+
+users=[
+
+    {
+        user_id:1
+             name
+             dob
+             email
+             gender
+             blood group
+             location
+             dobprofession
+             posts:[1,2,3,4]
+    },
+    
+    {
+        user_id:1
+             name
+             dob
+             email
+             gender
+             blood group
+             location
+             dobprofession
+             posts:[5,6,7,8]
+    },
+    
+    {
+        user_id:2
+             name
+             dob
+             email
+             gender
+             blood group
+             location
+             dobprofession
+             posts:[1,2,3,4]
+    },
+    
+    {
+        user_id:3
+             name
+             dob
+             email
+             gender
+             blood group
+             location
+             dobprofession
+             posts:[56,65,87,98,109]
+    },
+    
+    {
+        user_id:4
+             name
+             dob
+             email
+             gender
+             blood group
+             location
+             dobprofession
+             posts:[45,58,25,12]
+    },
+    .
+    .
+    .
+    .
+    .
+    .
+    1 million
+]
+
+posts=[
+    {id},
+    {id},
+    {id}
+]
+A single user can have multiple posts on any social media plateform
+=>user <==> Posts
+1st way :Put user_id in posts
+2nd way :Put post_id in user
+
+
+Many-Many Relationship
+  ===> Instagram  
+      ==>Posts
+      ==>Hashtag
+
+         ==> A single post can have multiple hastags and a single hastag can be used on multiple posts .
+         =>Posts <==>hastags
+         1st way : put user_id in  hastag
+         2nd Way : Put hastag_id in user
+what is the best way to connect the collections ?
+
+=> Find out which collections is dependent and which is independent 
+
+
+1-1
+
+=> Dependent : Student 
+=>Independent : user
+Best Way :Put user id in studen's' schema
+
+1-Many
+=> Dependent : Post 
+=>Independent : user
+
+Many -many 
+=>They are interdependent
+
+conclusion
+
+=>The best way to form a Relationship is by putting independent's ID inside dependent inside dependent's schema.
+
+
+
+Research work
+
+Relationships
+How we can actually implement them in code
+Authentication
+Authorization
+Hashing the password 
+Hashing vs Encryption
+where can i use hashing and Encryption 
+JWT (JSON Web Token )
