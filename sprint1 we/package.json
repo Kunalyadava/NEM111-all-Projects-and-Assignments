@@ -1,0 +1,15 @@
+{
+  "name": "first_project",
+  "version": "1.0.0",
+  "description": "First Node Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ritesh",
+  "license": "ISC",
+  "dependencies": {
+    "is-even": "^1.0.0",
+    "is-prime": "^1.0.1"
+  }
+}

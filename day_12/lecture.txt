@@ -198,30 +198,23 @@ JWT (JSON Web Token)
 
  Relationship
 A relationship is used to describe the relation between entities.
-
 DBMS ER model concept
 Types of relationship are as follows:
-
 a. One-to-One Relationship
 
 When only one instance of an entity is associated with the relationship,
  then it is known as one to one relationship.
-
 For example, A female can marry to one male, and a male can marry to one female.
 
 DBMS ER model concept
 b. One-to-many relationship
-
 When only one instance of the entity on the left, and more than one instance of an entity on
  the right associates with the relationship then this is known as a one-to-many relationship.
-
 For example, Scientist can invent many inventions, 
 but the invention is done by the only specific scientist.
 
-
 DBMS ER model concept
 c. Many-to-one relationship
-
 When more than one instance of the entity on the left, and only one
  instance of an entity on the right associates with the relationship 
  then it is known as a many-to-one relationship.
@@ -239,3 +232,52 @@ the relationship then it is known as a many-to-many relationship.
 
 For example, Employee can assign by many projects and project can have many employees.
 DBMS ER model concept
+
+
+
+Advantages
+The advantages of the ER model are as follows −
+It is easy to create and understand.
+It is very simple because if you know the relationship between attributes and entities, you can easily draw it.
+It is a tool for effective communication for database designers.
+It can be easily converted into a Relational model
+
+Disadvantages
+The disadvantages of the ER model are as follows −
+It is not suitable for the semi-structured or unstructured data set.
+It is difficult to show data manipulation.
+
+
+Difference between Hashing and Encryption
+
+// Encryption is the process of converting a normal readable message
+//  known as plaintext into a garbage message or not
+//   readable message known as Ciphertext. The ciphertext 
+// obtained from the encryption can easily be transformed
+//  into plaintext using the encryption key. Some of the 
+//  examples of encryption algorithms are RSA, AES, and Blowfish.
+
+
+
+// Hashing is the process of converting the 
+// information into a key using a hash function. 
+// The original information cannot be retrieved from the
+//  hash key by any means. Generally, the hash keys are stored 
+//  in the database and they are compared to check whether the original 
+//  information matches or not. They are generally used to store the 
+//  passwords for login. Some of the examples
+//   of a hashing algorithm are MD5, SHA256.
+
+
+
+
+
+
+ In the authentication process, the identity of users
+  is checked for providing the access to the system. 
+  While in the authorization process, a person’s or 
+  user’s authorities are 
+ checked for accessing the resources. Authentication 
+ is done before the authorization process, whereas the 
+ authorization process is done after the authentication 
+ process.
