@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Kunalyadava/NEM111-all-Projects-and-Assignments#readme",
   "dependencies": {
+    "init": "^0.1.2",
     "mongoose": "^7.0.4"
   }
 }

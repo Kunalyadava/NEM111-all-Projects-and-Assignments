@@ -315,3 +315,13 @@
 // representation of those objects in MongoDB.
 
 
+// Authentication Vs. Authorization | Difference between
+//  Authentication and Authorization
+
+
+// Authentication and authorization are the two words used 
+// in the security world. They might sound similar but are
+//  completely different from each other. Authentication is 
+//  used to authenticate someone's identity, whereas
+//   authorization is a way to provide permission to someone to
+//    access a  particular resource.
