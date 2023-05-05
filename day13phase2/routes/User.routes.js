@@ -1,8 +1,6 @@
-
-
 const express=require("express")
 const {UserModel }=require("../model/User.model")
-// const {UserModel}
+ const jwt = require('jsonwebtoken');
 const userRouter=express.Router()
 
 
@@ -28,9 +26,12 @@ userRouter.post("/login",async(req,res)=>{
     //logic
     try{
         const user=await UserModel.findOne({email,pass})
-        console.log(user)
+       // console.log(user)   ////assignining token after login .
         if(user){
-            res.status(200).send({"msg":"Login Successsful","token":"12345R"})
+         const   token = jwt.sign({ course: 'FSD' }, 'masai'); //masai is secret key here or verifying signature 
+            // res.status(200).send({"msg":"Login Successsful","token":"12345R"})
+            res.status(200).send({"msg":"Login Successsful","token":token}) //itr will generate random token everytime /everytime after login token will change and this is not good
+            
         }else{
             res.status(200).send({"msg":"Wrong Credientials"})
         }
