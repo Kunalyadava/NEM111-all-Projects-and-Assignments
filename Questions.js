@@ -1,4 +1,6 @@
- // Interaction with system
+//Node 
+
+// Interaction with system
 // There are two methods by which we can interact with the system/machine/computer:
 
 // GUI ⇒ Graphical User Interface
