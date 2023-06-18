@@ -306,6 +306,110 @@
 ////autocannon one of the fastest tools available for testing web-server performance
 
 
+
+
+ // MVC is abbreviated as Model View Controller is a design pattern created for 
+// developing applications specifically web applications. As the name suggests, 
+// it has three major parts. The traditional software design pattern works in an 
+// "Input - Process - Output" pattern whereas MVC works as "Controller -Model - View"
+//  approach. With the emergence of the MVC model, creation of application takes different 
+//  aspects individually into consideration. These aspects of the application are:
+// UI Logic
+// Input logic
+// Business Logic
+// It provides a clear separation of business logic, Ul logic, and input logic.
+// It offers full control over your HTML and URLs which makes it easy to
+                                     //  design web application architecture.
+// It is a powerful URL-mapping component using which we can build applications that 
+                                       // have comprehensible and searchable URLs.
+// It supports Test Driven Development (TDD).
+// Components of MVC :
+
+// The MVC framework includes the following 3 components:
+
+// Controller
+// Model
+// View
+
+
+
+
+//Mongodb Atlas(cloud based mong0db)
+// ATLAS
+// Database. Deploy amulti-cloud database.
+// The most advanced cloud database service on the market,
+//  with unmatched data distribution and mobility across AWS, Azure, and Google
+//  Cloud, built-in automation for resource and workload optimization, and so much more.
+
+
+
+
+////
+
+// Difference between Hashing and Encryption
+
+// Encryption is the process of converting a normal readable message
+//  known as plaintext into a garbage message or not
+//   readable message known as Ciphertext. The ciphertext 
+// obtained from the encryption can easily be transformed
+//  into plaintext using the encryption key. Some of the 
+//  examples of encryption algorithms are RSA, AES, and Blowfish.
+
+
+
+// Hashing is the process of converting the 
+// information into a key using a hash function. 
+// The original information cannot be retrieved from the
+//  hash key by any means. Generally, the hash keys are stored 
+//  in the database and they are compared to check whether the original 
+//  information matches or not. They are generally used to store the 
+//  passwords for login. Some of the examples
+//   of a hashing algorithm are MD5, SHA256.
+
+
+
+
+
+
+//  In the authentication process, the identity of users
+//   is checked for providing the access to the system. 
+//   While in the authorization process, a person’s or 
+//   user’s authorities are 
+//  checked for accessing the resources. Authentication 
+//  is done before the authorization process, whereas the 
+//  authorization process is done after the authentication 
+//  process.
+
+// Authentication -Identification 
+// Authorization - Providing accessible
+// Flow 
+// => /register (POST)=> So that we can post the user details into the database registration Process
+// =>/login (POST) =>So this was to send the email and pass to server so that it can be compared and user can login
+// =>(Authentication)
+
+// Authorization
+// =>/moviedata (secured)=>Restricted (Permission)
+// =>/userdetails(secured)=>Restricted (Permission)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // MongoDB is a 
 // schema-less NoSQL document database.
 //  It means you can store JSON documents in it,
